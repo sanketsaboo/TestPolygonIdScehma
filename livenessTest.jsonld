@@ -1,0 +1,25 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "ProofOfDaoLongevity": {
+          "@id": "https://raw.githubusercontent.com/0xPolygonID/tutorial-examples/main/credential-schema/proof-of-dao-longevity.jsonld#ProofOfDaoLongevity",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://raw.githubusercontent.com/sanketsaboo/TestPolygonIdScehma/main/liveness.md",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "isaHuman": {
+              "@id": "vocab:entryDate",
+              "@type": "xsd:integer"
+            }
+          }
+        }
+      }
+    ]
+  }
