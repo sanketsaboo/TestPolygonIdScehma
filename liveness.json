@@ -3,7 +3,7 @@
     "type": "object",
     "$metadata": {
       "uris": {
-    "jsonLdContext": "https://raw.githubusercontent.com/sanketsaboo/TestPolygonIdScehma/main/liveness.json-ld",
+    "jsonLdContext": "https://raw.githubusercontent.com/sanketsaboo/TestPolygonIdScehma/main/liveness.jsonld",
         "jsonSchema": "https://raw.githubusercontent.com/sanketsaboo/TestPolygonIdScehma/main/liveness.json"
       }
     },
