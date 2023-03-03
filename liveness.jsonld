@@ -14,7 +14,7 @@
           "type": "@type",
           "vocab": "https://raw.githubusercontent.com/sanketsaboo/TestPolygonIdScehma/main/liveness.md",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "isHuman": {
+          "isaHuman": {
             "@id": "vocab:isHuman",
             "@type": "xsd:integer"
           }
