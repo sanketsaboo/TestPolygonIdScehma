@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://raw.githubusercontent.com/sanketsaboo/tutorial-examples/main/credential-schema/schemas-examples/proof-of-liveness/proof-of-humanity.jsonld",
-        "jsonSchema": "https://raw.githubusercontent.com/sanketsaboo/tutorial-examples/main/credential-schema/schemas-examples/proof-of-liveness/proof-of-humanity.json"
+    "jsonLdContext": "https://raw.githubusercontent.com/sanketsaboo/TestPolygonIdScehma/main/liveness.json-ld",
+        "jsonSchema": "https://raw.githubusercontent.com/sanketsaboo/TestPolygonIdScehma/main/liveness.json"
       }
     },
     "required": [
