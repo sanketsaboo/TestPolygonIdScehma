@@ -14,7 +14,7 @@
             "type": "@type",
             "vocab": "https://raw.githubusercontent.com/sanketsaboo/TestPolygonIdScehma/main/KYB.md",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
-            "KYB": {
+            "isbusiness": {
               "@id": "vocab:isbusiness",
               "@type": "xsd:integer"
             }
