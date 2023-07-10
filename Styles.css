@@ -1,0 +1,88 @@
+
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        img{
+            max-width: 21cm;
+        }
+        .logo {
+            position: fixed;
+            top: 10mm;
+            left: 15mm;
+            width: 25mm;
+            height: auto;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size: .75rem;
+        }
+        .main-header{
+            max-width: 21cm;
+            min-width: 17cm;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        table{
+            max-width: 21cm;
+            width: 17cm;
+        }
+        .page-break {
+            page-break-after: always; 
+        }
+        @media print {
+    .main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+            }
+  .divider-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+  }
+
+  .divider-page h2 {
+    margin-top: 10%; /* Optional: Adjust the margin as needed */
+  }
+
+  .divider-page .link {
+    margin: 10px 0; /* Optional: Adjust the margin as needed */
+  }
+  
+}
+.main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+            }
+  .divider-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+  }
+
+  .divider-page h2 {
+    margin-top: 10%; /* Optional: Adjust the margin as needed */
+  }
+
+  .divider-page .link {
+    margin: 10px 0; /* Optional: Adjust the margin as needed */
+  }
